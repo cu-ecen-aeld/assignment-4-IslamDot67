@@ -6,11 +6,11 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = '0b6f85852c70c862a643a99dcb501859daa3ffa1'
+AESD_ASSIGNMENTS_VERSION = a533db4f50109fbbe058beb750dd5e4ca35138ec
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
-AESD_ASSIGNMENTS_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-IslamDot67.git'
+AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignment-4-IslamDot67.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
 
