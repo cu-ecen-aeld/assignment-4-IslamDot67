@@ -28,9 +28,9 @@ jobs:
           submodules: recursive
 
       # SSH must be set BEFORE any git/submodule work
-      - uses: webfactory/ssh-agent@v0.5.3
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - uses: webfactory/ssh-agent@v0.9.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Add GitHub to known hosts
         run: |
